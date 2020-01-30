@@ -1,0 +1,12 @@
+{
+  "Name": "[CP] empty char",
+  "Author": "Strobe",
+  "Version": "1.0.0",
+  "Description": "adds empty char sheet.",
+  "UniqueID": "Strobe.Emptychar",
+  "MinimumApiVersion": "3.0.0",
+  "UpdateKeys": ["Nexus:"],
+  "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher",
+   }
+}

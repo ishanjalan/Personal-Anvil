@@ -1,0 +1,4 @@
+/Users/ishanjalan/Projects/UsefulWorkbench/UsefulWorkbench/bin/Debug/UsefulWorkbench.dll
+/Users/ishanjalan/Projects/UsefulWorkbench/UsefulWorkbench/bin/Debug/UsefulWorkbench.pdb
+/Users/ishanjalan/Projects/UsefulWorkbench/UsefulWorkbench/obj/Debug/UsefulWorkbench.dll
+/Users/ishanjalan/Projects/UsefulWorkbench/UsefulWorkbench/obj/Debug/UsefulWorkbench.pdb
