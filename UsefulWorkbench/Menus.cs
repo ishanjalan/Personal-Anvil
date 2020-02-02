@@ -201,7 +201,7 @@ namespace StardewValley.Menus
                                 y += 128;
                                 break;
                         }
-                        geodeDestructionAnimation = new TemporaryAnimatedSprite("TileSheets\\animations", new Rectangle(0, y, 64, 64), 100f, 8, 0, new Vector2(geodeSpot.bounds.X + 280, geodeSpot.bounds.Y + 80), false, false);
+                        geodeDestructionAnimation = new TemporaryAnimatedSprite("TileSheets\\animations", new Rectangle(0, y, 64, 64), 100f, 8, 0, new Vector2(geodeSpot.bounds.X + 285 - 32, geodeSpot.bounds.Y + 150 - 32), false, false);
                         if (geodeSpot.item != null && geodeSpot.item.ParentSheetIndex == 275)
                         {
                             geodeDestructionAnimation = new TemporaryAnimatedSprite()
@@ -210,7 +210,7 @@ namespace StardewValley.Menus
                                 sourceRect = new Rectangle(388, 123, 18, 21),
                                 sourceRectStartingPos = new Vector2(388f, 123f),
                                 animationLength = 6,
-                                position = new Vector2(geodeSpot.bounds.X, geodeSpot.bounds.Y),
+                                position = new Vector2(geodeSpot.bounds.X + 273 - 32, geodeSpot.bounds.Y + 150 - 32),
                                 holdLastFrame = true,
                                 interval = 100f,
                                 id = 777f,
@@ -218,7 +218,7 @@ namespace StardewValley.Menus
                             };
                             for (int index = 0; index < 6; ++index)
                             {
-                                fluffSprites.Add(new TemporaryAnimatedSprite("LooseSprites\\Cursors", new Rectangle(372, 1956, 10, 10), new Vector2(geodeSpot.bounds.X + Game1.random.Next(21), geodeSpot.bounds.Y), false, 1f / 500f, new Color(byte.MaxValue, 222, 198))
+                                fluffSprites.Add(new TemporaryAnimatedSprite("LooseSprites\\Cursors", new Rectangle(372, 1956, 10, 10), new Vector2(geodeSpot.bounds.X + 285 - 32 + Game1.random.Next(21), geodeSpot.bounds.Y + 150 - 16), false, 1f / 500f, new Color(byte.MaxValue, 222, 198))
                                 {
                                     alphaFade = 0.02f,
                                     motion = new Vector2(Game1.random.Next(-20, 21) / 10f, Game1.random.Next(5, 20) / 10f),
@@ -244,7 +244,7 @@ namespace StardewValley.Menus
                                     scale = 4f,
                                     rotationChange = (float)(Game1.random.Next(-5, 6) * 3.14159274101257 / 256.0),
                                     delayBeforeAnimationStart = index * 10,
-                                    position = new Vector2(geodeSpot.bounds.X + Game1.random.Next(21), geodeSpot.bounds.Y)
+                                    position = new Vector2(geodeSpot.bounds.X + 285 - 32 + Game1.random.Next(21), geodeSpot.bounds.Y + 150 - 16)
                                 });
                                 delayBeforeShowArtifactTimer = 100f;
                             }
@@ -284,7 +284,7 @@ namespace StardewValley.Menus
                         --yPositionOfGem;
                         if ((geodeDestructionAnimation.currentParentTileIndex == 7 || geodeDestructionAnimation.id == 777.0 && geodeDestructionAnimation.currentParentTileIndex == 5) && geodeTreasure.Price > 75)
                         {
-                            sparkle = new TemporaryAnimatedSprite("TileSheets\\animations", new Rectangle(0, 640, 64, 64), 100f, 8, 0, new Vector2(geodeSpot.bounds.X + 280, geodeSpot.bounds.Y + yPositionOfGem + 80), false, false);
+                            sparkle = new TemporaryAnimatedSprite("TileSheets\\animations", new Rectangle(0, 640, 64, 64), 100f, 8, 0, new Vector2(geodeSpot.bounds.X + 285 - 32, geodeSpot.bounds.Y + 150 + yPositionOfGem - 32), false, false);
                             Game1.playSound("discoverMineral");
                         }
                         else if ((geodeDestructionAnimation.currentParentTileIndex == 7 || geodeDestructionAnimation.id == 777.0 && geodeDestructionAnimation.currentParentTileIndex == 5) && geodeTreasure.Price <= 75)
@@ -314,17 +314,17 @@ namespace StardewValley.Menus
             if (geodeSpot.item != null)
             {
                 if (geodeDestructionAnimation == null)
-                    geodeSpot.item.drawInMenu(b, new Vector2(geodeSpot.bounds.X + (geodeSpot.item.ParentSheetIndex == 275 ? -8 : 0), geodeSpot.bounds.Y + (geodeSpot.item.ParentSheetIndex == 275 ? 8 : 0)), 1f);
+                    geodeSpot.item.drawInMenu(b, new Vector2(geodeSpot.bounds.X + 253 + (geodeSpot.item.ParentSheetIndex == 275 ? -8 : 0), geodeSpot.bounds.Y + 118 + (geodeSpot.item.ParentSheetIndex == 275 ? 8 : 0)), 1f);
                 else
                     geodeDestructionAnimation.draw(b, true, 0, 0, 1f);
                 foreach (TemporaryAnimatedSprite fluffSprite in fluffSprites)
                     fluffSprite.draw(b, true, 0, 0, 1f);
                 if (geodeTreasure != null && (double)delayBeforeShowArtifactTimer <= 0.0)
-                    geodeTreasure.drawInMenu(b, new Vector2(geodeSpot.bounds.X, geodeSpot.bounds.Y + yPositionOfGem), 1f);
+                    geodeTreasure.drawInMenu(b, new Vector2(geodeSpot.bounds.X + 253, geodeSpot.bounds.Y + 118 + yPositionOfGem), 1f);
                 if (sparkle != null)
                     sparkle.draw(b, true, 0, 0, 1f);
             }
-            clint.draw(b, new Vector2(geodeSpot.bounds.X, geodeSpot.bounds.Y), 0.877f);
+            clint.draw(b, new Vector2(geodeSpot.bounds.X + 384, geodeSpot.bounds.Y + 64), 0.877f);
             if (!hoverText.Equals(""))
                 drawHoverText(b, hoverText, Game1.smallFont, 0, 0, -1, null, -1, null, null, 0, -1, -1, -1, -1, 1f, null, null);
             if (heldItem != null)
