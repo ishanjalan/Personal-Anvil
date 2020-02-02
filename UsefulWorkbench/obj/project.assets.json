@@ -42,11 +42,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/ishanjalan/Projects/UsefulWorkbench/UsefulWorkbench/UsefulWorkbench.csproj",
+      "projectUniqueName": "/Users/ishanjalan/Downloads/GitHub/UsefulWorkbench/UsefulWorkbench/UsefulWorkbench.csproj",
       "projectName": "UsefulWorkbench",
-      "projectPath": "/Users/ishanjalan/Projects/UsefulWorkbench/UsefulWorkbench/UsefulWorkbench.csproj",
+      "projectPath": "/Users/ishanjalan/Downloads/GitHub/UsefulWorkbench/UsefulWorkbench/UsefulWorkbench.csproj",
       "packagesPath": "/Users/ishanjalan/.nuget/packages/",
-      "outputPath": "/Users/ishanjalan/Projects/UsefulWorkbench/UsefulWorkbench/obj/",
+      "outputPath": "/Users/ishanjalan/Downloads/GitHub/UsefulWorkbench/UsefulWorkbench/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/ishanjalan/.config/NuGet/NuGet.Config"

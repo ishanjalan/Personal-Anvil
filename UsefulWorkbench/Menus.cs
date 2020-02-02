@@ -33,7 +33,7 @@ namespace StardewValley.Menus
                 myID = 998,
                 downNeighborID = 0
             };
-            clint = new AnimatedSprite(this.Helper.Content.GetActualAssetKey("assets/Empty.png"), 8, 32, 48);
+            clint = new AnimatedSprite(Content.GetActualAssetKey("assets/Empty.png"), 8, 32, 48);
             if (inventory.inventory != null && inventory.inventory.Count >= 12)
             {
                 for (int index = 0; index < 12; ++index)
@@ -175,7 +175,7 @@ namespace StardewValley.Menus
             else
             {
                 int currentFrame = clint.currentFrame;
-               clint.animateOnce(time);
+                clint.animateOnce(time);
                 if (clint.currentFrame == 11 && currentFrame != 11)
                 {
                     if (geodeSpot.item != null && geodeSpot.item.ParentSheetIndex == 275)
@@ -218,7 +218,7 @@ namespace StardewValley.Menus
                             };
                             for (int index = 0; index < 6; ++index)
                             {
-                                fluffSprites.Add(new TemporaryAnimatedSprite("assets/bgpatch.png", new Rectangle(372, 1956, 10, 10), new Vector2(geodeSpot.bounds.X + 392 - 32 + Game1.random.Next(21), geodeSpot.bounds.Y + 192 - 16), false, 1f / 500f, new Color(byte.MaxValue, 222, 198))
+                                fluffSprites.Add(new TemporaryAnimatedSprite(Content.GetActualAssetKey("assets/bgpatch.png"), new Rectangle(372, 1956, 10, 10), new Vector2(geodeSpot.bounds.X + 392 - 32 + Game1.random.Next(21), geodeSpot.bounds.Y + 192 - 16), false, 1f / 500f, new Color(byte.MaxValue, 222, 198))
                                 {
                                     alphaFade = 0.02f,
                                     motion = new Vector2(Game1.random.Next(-20, 21) / 10f, Game1.random.Next(5, 20) / 10f),
@@ -310,7 +310,7 @@ namespace StardewValley.Menus
             b.Draw(Game1.fadeToBlackRect, Game1.graphics.GraphicsDevice.Viewport.Bounds, Color.Black * 0.4f);
             draw(b, true, true, -1, -1, -1);
             Game1.dayTimeMoneyBox.drawMoneyBox(b, -1, -1);
-            b.Draw(Game1.mouseCursors, new Vector2(geodeSpot.bounds.X, geodeSpot.bounds.Y), new Rectangle?(new Rectangle(0, 0, 140, 78)), Color.White, 0.0f, Vector2.Zero, 4f, SpriteEffects.None, 0.87f);
+            b.Draw(Content.Load<Texture2D>("assets/bgpatch.png"), new Vector2(geodeSpot.bounds.X, geodeSpot.bounds.Y), new Rectangle?(new Rectangle(0, 0, 140, 78)), Color.White, 0.0f, Vector2.Zero, 4f, SpriteEffects.None, 0.87f);
             if (geodeSpot.item != null)
             {
                 if (geodeDestructionAnimation == null)

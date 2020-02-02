@@ -61,17 +61,17 @@ namespace UsefulWorkbench
         private void OnUpdateTicked(object sender, UpdateTickedEventArgs e)
         {
             // Re-send a left click to the geode menu if one is already not being broken, the player has the room and money for it, and the click was on the geode spot.
-            if (e.IsMultipleOf(4) && this.Helper.Input.IsDown(SButton.MouseLeft) && Game1.activeClickableMenu is WorkbenchGeodeMenu menu)
+            if (e.IsMultipleOf(4) && Helper.Input.IsDown(SButton.MouseLeft) && Game1.activeClickableMenu is WorkbenchGeodeMenu menu)
             {
-                bool clintNotBusy = menu.heldItem != null && (menu.heldItem.Name.Contains("Geode") || menu.heldItem.ParentSheetIndex == 275) && (Game1.player.Money >= 0 && menu.geodeAnimationTimer <= 0);
+                bool clintNotBusy = menu.heldItem != null && (menu.heldItem.Name.Contains("Geode") || menu.heldItem.ParentSheetIndex == 275) && Game1.player.Money >= 0 && menu.geodeAnimationTimer <= 0;
                 bool playerHasRoom = Game1.player.freeSpotsInInventory() > 1 || (Game1.player.freeSpotsInInventory() == 1 && menu.heldItem != null && menu.heldItem.Stack == 1);
 
-                if (clintNotBusy && playerHasRoom && menu.geodeSpot.containsPoint(this.leftClickXPos, this.leftClickYPos))
+                if (clintNotBusy && playerHasRoom && menu.geodeSpot.containsPoint(leftClickXPos, leftClickYPos))
                 {
-                    menu.receiveLeftClick(this.leftClickXPos, this.leftClickYPos, false);
+                    menu.receiveLeftClick(leftClickXPos, leftClickYPos, false);
                 }
             }
-        }    
+        }
     }
     public interface IJsonAssetsApi
     {
