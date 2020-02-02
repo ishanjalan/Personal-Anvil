@@ -10,13 +10,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Pathoschild.Stardew.ModBuildConfig" Version="3.0.0" />
+    <PackageReference Include="Pathoschild.Stardew.ModBuildConfig" Version="3.1.0" />
   </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Menus\" />
+   <ItemGroup>
+    <Folder Include="assets\" />
   </ItemGroup>
     <ItemGroup>
-    <Folder Include="[CP] empty char\" />
-  </ItemGroup>
+      <Compile Remove="Menus\WorkbenchGeodeMenu.cs" />
+    </ItemGroup>
 </Project>

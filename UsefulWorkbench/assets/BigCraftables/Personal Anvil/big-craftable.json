@@ -1,0 +1,24 @@
+{
+    "Name": "Anvil",
+    "Description": "lorem ipsum.",
+    "Price": 1,
+    "ProvidesLight": false,
+    "ReserveNextIndex": false,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": 
+    [
+        {
+            "Object": 390,
+            "Count": 50,
+        },
+        {
+            "Object": 787,
+            "Count": 1,
+        }, 
+    ],
+        "CanPurchase": false,
+        "IsDefault": true,
+    }
+}

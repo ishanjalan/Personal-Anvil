@@ -1,33 +1,38 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
+﻿using System.IO;
 using Microsoft.Xna.Framework;
-using Microsoft.Xna.Framework.Graphics;
 using StardewModdingAPI;
 using StardewModdingAPI.Events;
-using StardewModdingAPI.Utilities;
 using StardewValley;
 using StardewValley.Menus;
-using StardewValley.Objects;
-using Object = System.Object;
-using Netcode;
+
 
 namespace UsefulWorkbench
 {
     public class ModEntry : Mod
     {
+        private IJsonAssetsApi JsonAssets;
+        private int AnvilID;
         private int leftClickXPos;
         private int leftClickYPos;
 
         public override void Entry(IModHelper helper)
         {
-            /*helper.Events.GameLoop.UpdateTicking += OnUpdateTicking;
             helper.Events.GameLoop.GameLaunched += OnGameLaunched;
             helper.Events.GameLoop.SaveLoaded += OnSaveLoaded;
-            helper.Events.GameLoop.DayEnding += OnDayEnding;
-            helper.Events.Display.MenuChanged += OnMenuChanged;*/
-            helper.Events.GameLoop.UpdateTicked += this.OnUpdateTicked;
-            helper.Events.Input.ButtonPressed += this.OnButtonPressed;
+            helper.Events.GameLoop.UpdateTicked += OnUpdateTicked;
+            helper.Events.Input.ButtonPressed += OnButtonPressed;
+        }
+        private void OnSaveLoaded(object sender, SaveLoadedEventArgs e)
+        {
+            if (JsonAssets != null)
+            {
+                AnvilID = JsonAssets.GetBigCraftableId("Anvil");
+
+                if (AnvilID == -1)
+                {
+                    Monitor.Log("Could not get the ID for the Anvil item", LogLevel.Warn);
+                }
+            }
         }
         private void OnButtonPressed(object sender, ButtonPressedEventArgs e)
         {
@@ -39,11 +44,19 @@ namespace UsefulWorkbench
             if (!e.Button.IsActionButton())
                 return;
             Vector2 tile = Helper.Input.GetCursorPosition().Tile;
-            Game1.currentLocation.Objects.TryGetValue(tile, out StardewValley.Object obj);
-            if (obj is Workbench)
+            Game1.currentLocation.Objects.TryGetValue(tile, out Object obj);
+            if (obj != null && obj.bigCraftable.Value)
             {
-                Game1.activeClickableMenu = new WorkbenchGeodeMenu();
+                if (obj.ParentSheetIndex.Equals(AnvilID))
+                {
+                    Game1.activeClickableMenu = new WorkbenchGeodeMenu(Helper.Content);
+                }
             }
+        }
+        private void OnGameLaunched(object sender, GameLaunchedEventArgs e)
+        {
+            JsonAssets = Helper.ModRegistry.GetApi<IJsonAssetsApi>("spacechase0.JsonAssets");
+            JsonAssets.LoadAssets(Path.Combine(Helper.DirectoryPath, "assets"));
         }
         private void OnUpdateTicked(object sender, UpdateTickedEventArgs e)
         {
@@ -58,7 +71,12 @@ namespace UsefulWorkbench
                     menu.receiveLeftClick(this.leftClickXPos, this.leftClickYPos, false);
                 }
             }
-        }
-
+        }    
+    }
+    public interface IJsonAssetsApi
+    {
+        int GetBigCraftableId(string name);
+        void LoadAssets(string path);
     }
 }
+

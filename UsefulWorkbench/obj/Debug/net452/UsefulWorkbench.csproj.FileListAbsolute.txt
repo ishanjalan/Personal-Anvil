@@ -1,5 +1,6 @@
 /Users/ishanjalan/Projects/UsefulWorkbench/UsefulWorkbench/bin/Debug/net452/UsefulWorkbench.dll
 /Users/ishanjalan/Projects/UsefulWorkbench/UsefulWorkbench/bin/Debug/net452/UsefulWorkbench.pdb
+/Users/ishanjalan/Projects/UsefulWorkbench/UsefulWorkbench/obj/Debug/net452/UsefulWorkbench.csproj.CoreCompileInputs.cache
 /Users/ishanjalan/Projects/UsefulWorkbench/UsefulWorkbench/obj/Debug/net452/UsefulWorkbench.AssemblyInfoInputs.cache
 /Users/ishanjalan/Projects/UsefulWorkbench/UsefulWorkbench/obj/Debug/net452/UsefulWorkbench.AssemblyInfo.cs
 /Users/ishanjalan/Projects/UsefulWorkbench/UsefulWorkbench/obj/Debug/net452/UsefulWorkbench.dll
