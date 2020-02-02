@@ -2,14 +2,15 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="UsefulWorkbench/Menus.cs">
     <Files>
       <File FileName="UsefulWorkbench/Menus.cs" Line="191" Column="49" />
-      <File FileName="UsefulWorkbench/ModEntry.cs" Line="12" Column="6" />
+      <File FileName="UsefulWorkbench/ModEntry.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="UsefulWorkbench" expanded="True" selected="True">
+          <Node name="UsefulWorkbench" expanded="True">
             <Node name="UsefulWorkbench" expanded="True">
               <Node name="assets" expanded="True" />
+              <Node name="Menus.cs" selected="True" />
             </Node>
           </Node>
         </State>

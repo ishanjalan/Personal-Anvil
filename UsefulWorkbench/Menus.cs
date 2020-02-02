@@ -218,7 +218,7 @@ namespace StardewValley.Menus
                             };
                             for (int index = 0; index < 6; ++index)
                             {
-                                fluffSprites.Add(new TemporaryAnimatedSprite(Content.GetActualAssetKey("assets/bgpatch.png"), new Rectangle(372, 1956, 10, 10), new Vector2(geodeSpot.bounds.X + 392 - 32 + Game1.random.Next(21), geodeSpot.bounds.Y + 192 - 16), false, 1f / 500f, new Color(byte.MaxValue, 222, 198))
+                                fluffSprites.Add(new TemporaryAnimatedSprite("LooseSprites\\Cursors", new Rectangle(372, 1956, 10, 10), new Vector2(geodeSpot.bounds.X + 392 - 32 + Game1.random.Next(21), geodeSpot.bounds.Y + 192 - 16), false, 1f / 500f, new Color(byte.MaxValue, 222, 198))
                                 {
                                     alphaFade = 0.02f,
                                     motion = new Vector2(Game1.random.Next(-20, 21) / 10f, Game1.random.Next(5, 20) / 10f),

@@ -38,8 +38,8 @@ namespace UsefulWorkbench
         {
             if (e.Button == SButton.MouseLeft)
             {
-                this.leftClickXPos = (int)e.Cursor.ScreenPixels.X;
-                this.leftClickYPos = (int)e.Cursor.ScreenPixels.Y;
+                leftClickXPos = (int)e.Cursor.ScreenPixels.X;
+                leftClickYPos = (int)e.Cursor.ScreenPixels.Y;
             }
             if (!e.Button.IsActionButton())
                 return;
@@ -79,4 +79,3 @@ namespace UsefulWorkbench
         void LoadAssets(string path);
     }
 }
-
