@@ -40,11 +40,11 @@
     "/Users/ishanjalan/.nuget/packages/": {}
   },
   "project": {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "restore": {
-      "projectUniqueName": "/Users/ishanjalan/Downloads/GitHub/UsefulWorkbench/UsefulWorkbench/UsefulWorkbench.csproj",
-      "projectName": "UsefulWorkbench",
-      "projectPath": "/Users/ishanjalan/Downloads/GitHub/UsefulWorkbench/UsefulWorkbench/UsefulWorkbench.csproj",
+      "projectUniqueName": "/Users/ishanjalan/Downloads/GitHub/UsefulWorkbench/UsefulWorkbench/PersonalAnvil.csproj",
+      "projectName": "PersonalAnvil",
+      "projectPath": "/Users/ishanjalan/Downloads/GitHub/UsefulWorkbench/UsefulWorkbench/PersonalAnvil.csproj",
       "packagesPath": "/Users/ishanjalan/.nuget/packages/",
       "outputPath": "/Users/ishanjalan/Downloads/GitHub/UsefulWorkbench/UsefulWorkbench/obj/",
       "projectStyle": "PackageReference",

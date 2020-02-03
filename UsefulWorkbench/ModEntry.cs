@@ -6,7 +6,7 @@ using StardewValley;
 using StardewValley.Menus;
 
 
-namespace UsefulWorkbench
+namespace PersonalAnvil
 {
     public class ModEntry : Mod
     {
@@ -60,7 +60,6 @@ namespace UsefulWorkbench
         }
         private void OnUpdateTicked(object sender, UpdateTickedEventArgs e)
         {
-            // Re-send a left click to the geode menu if one is already not being broken, the player has the room and money for it, and the click was on the geode spot.
             if (e.IsMultipleOf(4) && Helper.Input.IsDown(SButton.MouseLeft) && Game1.activeClickableMenu is WorkbenchGeodeMenu menu)
             {
                 bool clintNotBusy = menu.heldItem != null && (menu.heldItem.Name.Contains("Geode") || menu.heldItem.ParentSheetIndex == 275) && Game1.player.Money >= 0 && menu.geodeAnimationTimer <= 0;

@@ -1,0 +1,49 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/ishanjalan/Downloads/GitHub/UsefulWorkbench/UsefulWorkbench/PersonalAnvil.csproj": {}
+  },
+  "projects": {
+    "/Users/ishanjalan/Downloads/GitHub/UsefulWorkbench/UsefulWorkbench/PersonalAnvil.csproj": {
+      "version": "1.0.1",
+      "restore": {
+        "projectUniqueName": "/Users/ishanjalan/Downloads/GitHub/UsefulWorkbench/UsefulWorkbench/PersonalAnvil.csproj",
+        "projectName": "PersonalAnvil",
+        "projectPath": "/Users/ishanjalan/Downloads/GitHub/UsefulWorkbench/UsefulWorkbench/PersonalAnvil.csproj",
+        "packagesPath": "/Users/ishanjalan/.nuget/packages/",
+        "outputPath": "/Users/ishanjalan/Downloads/GitHub/UsefulWorkbench/UsefulWorkbench/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ishanjalan/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net452"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net452": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net452": {
+          "dependencies": {
+            "Pathoschild.Stardew.ModBuildConfig": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -137,7 +137,7 @@ namespace StardewValley.Menus
             if (!descriptionText.Equals(""))
                 return;
             else
-                descriptionText = "Place geodes on the anvil to break them. You can do this for free using the Workbench wherever you please.";
+                descriptionText = "Place geodes or artifact troves in the box to break them!";
         }
 
         public override void emergencyShutDown()
@@ -160,7 +160,6 @@ namespace StardewValley.Menus
                 alertTimer -= time.ElapsedGameTime.Milliseconds;
             if (geodeAnimationTimer <= 0)
                 return;
-            Game1.changeMusicTrack("none", false, Game1.MusicContext.Default);
             geodeAnimationTimer -= time.ElapsedGameTime.Milliseconds;
             if (geodeAnimationTimer <= 0)
             {
@@ -188,6 +187,7 @@ namespace StardewValley.Menus
                         Game1.playSound("hammer");
                         Game1.playSound("stoneCrack");
                     }
+                    Game1.player.gainExperience(Farmer.miningSkill, 3);
                     ++Game1.stats.GeodesCracked;
                     int y = 448;
                     if (geodeSpot.item != null)
