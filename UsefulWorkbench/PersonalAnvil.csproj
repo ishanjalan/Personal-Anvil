@@ -1,21 +1,14 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
-  <PropertyGroup>
-    <AssemblyName>PersonalAnvil</AssemblyName>
-    <RootNamespace>PersonalAnvil</RootNamespace>
-    <Version>1.0.1</Version>
-    <TargetFramework>net452</TargetFramework>
-    <Platforms>x86</Platforms>
-    <PlatformTarget>x86</PlatformTarget>
-  </PropertyGroup>
-
-  <ItemGroup>
-    <PackageReference Include="Pathoschild.Stardew.ModBuildConfig" Version="3.1.0" />
-  </ItemGroup>
-   <ItemGroup>
-    <Folder Include="assets\" />
-  </ItemGroup>
+    <PropertyGroup>
+        <AssemblyName>PersonalAnvil</AssemblyName>
+        <RootNamespace>PersonalAnvil</RootNamespace>
+        <Version>1.0.7</Version>
+        <TargetFramework>net452</TargetFramework>
+        <Platforms>x86</Platforms>
+        <PlatformTarget>x86</PlatformTarget>
+    </PropertyGroup>
     <ItemGroup>
-      <Compile Remove="Menus\WorkbenchGeodeMenu.cs" />
+        <PackageReference Include="Pathoschild.Stardew.ModBuildConfig" Version="3.1.0" />
+        <Compile Remove="Menus\WorkbenchGeodeMenu.cs" />
     </ItemGroup>
 </Project>

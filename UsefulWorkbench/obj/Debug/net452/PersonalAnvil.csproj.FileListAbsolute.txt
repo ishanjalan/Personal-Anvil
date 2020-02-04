@@ -5,4 +5,3 @@
 /Users/ishanjalan/Downloads/GitHub/UsefulWorkbench/UsefulWorkbench/obj/Debug/net452/PersonalAnvil.AssemblyInfo.cs
 /Users/ishanjalan/Downloads/GitHub/UsefulWorkbench/UsefulWorkbench/obj/Debug/net452/PersonalAnvil.dll
 /Users/ishanjalan/Downloads/GitHub/UsefulWorkbench/UsefulWorkbench/obj/Debug/net452/PersonalAnvil.pdb
-/Users/ishanjalan/Downloads/GitHub/UsefulWorkbench/UsefulWorkbench/obj/Debug/net452/PersonalAnvil.csprojAssemblyReference.cache

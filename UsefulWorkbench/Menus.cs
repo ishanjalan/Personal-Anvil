@@ -137,7 +137,7 @@ namespace StardewValley.Menus
             if (!descriptionText.Equals(""))
                 return;
             else
-                descriptionText = "Place geodes or artifact troves in the box to break them!";
+                descriptionText = "Place geodes or artifact troves in the box on the left to break them!";
         }
 
         public override void emergencyShutDown()
