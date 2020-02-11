@@ -36,6 +36,8 @@ namespace PersonalAnvil
         }
         private void OnButtonPressed(object sender, ButtonPressedEventArgs e)
         {
+            if (!Context.IsWorldReady)
+                return;
             if (e.Button == SButton.MouseLeft)
             {
                 leftClickXPos = (int)e.Cursor.ScreenPixels.X;

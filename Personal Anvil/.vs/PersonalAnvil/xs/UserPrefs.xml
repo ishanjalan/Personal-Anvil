@@ -1,23 +1,26 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workbench ActiveDocument="PersonalAnvil.csproj">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ModEntry.cs">
     <Files>
-      <File FileName="Menus.cs" Line="145" Column="38" />
-      <File FileName="PersonalAnvil.csproj" Line="5" Column="22" />
-      <File FileName="Menus/WorkbenchGeodeMenu.cs" Line="82" Column="30" />
+      <File FileName="Menus.cs" Line="85" Column="30" />
+      <File FileName="PersonalAnvil.csproj" />
+      <File FileName="Menus/WorkbenchGeodeMenu.cs" />
       <File FileName="assets/BigCraftables/Anvil/big-craftable.png" />
-      <File FileName="assets/BigCraftables/Anvil/big-craftable.json" Line="15" Column="9" />
-      <File FileName="manifest.json" Line="4" Column="20" />
+      <File FileName="assets/BigCraftables/Anvil/big-craftable.json" />
+      <File FileName="manifest.json" Line="10" Column="2" />
+      <File FileName="ModEntry.cs" Line="46" Column="16" />
+      <File FileName="LICENSE.txt" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="PersonalAnvil" expanded="True">
-            <Node name="PersonalAnvil" expanded="True" selected="True">
+            <Node name="PersonalAnvil" expanded="True">
               <Node name="assets" expanded="True">
                 <Node name="BigCraftables" expanded="True">
                   <Node name="Anvil" expanded="True" />
                 </Node>
               </Node>
+              <Node name="ModEntry.cs" selected="True" />
             </Node>
           </Node>
         </State>

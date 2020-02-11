@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/ishanjalan/Downloads/GitHub/UsefulWorkbench/UsefulWorkbench/PersonalAnvil.csproj": {}
+    "/Users/ishanjalan/Downloads/GitHub/UsefulWorkbench/Personal Anvil/PersonalAnvil.csproj": {}
   },
   "projects": {
-    "/Users/ishanjalan/Downloads/GitHub/UsefulWorkbench/UsefulWorkbench/PersonalAnvil.csproj": {
+    "/Users/ishanjalan/Downloads/GitHub/UsefulWorkbench/Personal Anvil/PersonalAnvil.csproj": {
       "version": "1.0.7",
       "restore": {
-        "projectUniqueName": "/Users/ishanjalan/Downloads/GitHub/UsefulWorkbench/UsefulWorkbench/PersonalAnvil.csproj",
+        "projectUniqueName": "/Users/ishanjalan/Downloads/GitHub/UsefulWorkbench/Personal Anvil/PersonalAnvil.csproj",
         "projectName": "PersonalAnvil",
-        "projectPath": "/Users/ishanjalan/Downloads/GitHub/UsefulWorkbench/UsefulWorkbench/PersonalAnvil.csproj",
+        "projectPath": "/Users/ishanjalan/Downloads/GitHub/UsefulWorkbench/Personal Anvil/PersonalAnvil.csproj",
         "packagesPath": "/Users/ishanjalan/.nuget/packages/",
-        "outputPath": "/Users/ishanjalan/Downloads/GitHub/UsefulWorkbench/UsefulWorkbench/obj/",
+        "outputPath": "/Users/ishanjalan/Downloads/GitHub/UsefulWorkbench/Personal Anvil/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/ishanjalan/.config/NuGet/NuGet.Config"
