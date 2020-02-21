@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="assets" t="Include">
+        <e p="bgpatch.png" t="Include" />
+        <e p="BigCraftables" t="Include">
+          <e p="Anvil" t="Include">
+            <e p="big-craftable.json" t="Include" />
+            <e p="big-craftable.png" t="Include" />
+          </e>
+        </e>
+        <e p="content-pack.json" t="Include" />
+        <e p="Empty.png" t="Include" />
+      </e>
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="DialogueAnvil.cs" t="Include" />
+      <e p="GeodeProcessMenu.cs" t="Include" />
+      <e p="LICENSE.txt" t="Include" />
+      <e p="manifest.json" t="Include" />
+      <e p="ModEntry.cs" t="Include" />
+      <e p="obj" t="ExcludeRecursive">
+        <e p="Debug" t="Include">
+          <e p="net452" t="Include">
+            <e p="PersonalAnvil.AssemblyInfo.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="PersonalAnvil.csproj" t="IncludeRecursive" />
+      <e p="Responses.json" t="Include" />
+    </e>
+    <e p="$USER_HOME$/Library/Caches/Rider2019.3/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.3/resharper-host/local/Transient/ReSharperHost/v193/SolutionCaches/_.19.00" t="ExcludeRecursive" />
+  </component>
+</project>

@@ -1,14 +1,9 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workbench ActiveDocument="ModEntry.cs">
     <Files>
-      <File FileName="Menus.cs" Line="85" Column="30" />
-      <File FileName="PersonalAnvil.csproj" />
-      <File FileName="Menus/WorkbenchGeodeMenu.cs" />
-      <File FileName="assets/BigCraftables/Anvil/big-craftable.png" />
-      <File FileName="assets/BigCraftables/Anvil/big-craftable.json" />
-      <File FileName="manifest.json" Line="10" Column="2" />
-      <File FileName="ModEntry.cs" Line="46" Column="16" />
-      <File FileName="LICENSE.txt" Line="1" Column="1" />
+      <File FileName="ModEntry.cs" Line="55" Column="52" />
+      <File FileName="manifest.json" />
+      <File FileName="Menus.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
