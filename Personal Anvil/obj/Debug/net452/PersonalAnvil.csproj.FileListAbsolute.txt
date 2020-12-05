@@ -13,3 +13,11 @@
 /Users/ishanjalan/Downloads/GitHub/UsefulWorkbench/Personal Anvil/obj/Debug/net452/PersonalAnvil.AssemblyInfo.cs
 /Users/ishanjalan/Downloads/GitHub/UsefulWorkbench/Personal Anvil/obj/Debug/net452/PersonalAnvil.dll
 /Users/ishanjalan/Downloads/GitHub/UsefulWorkbench/Personal Anvil/obj/Debug/net452/PersonalAnvil.pdb
+/Users/ishanjalan/RiderProjects/Personal-Anvil/Personal Anvil/bin/Debug/net452/PersonalAnvil.dll
+/Users/ishanjalan/RiderProjects/Personal-Anvil/Personal Anvil/bin/Debug/net452/PersonalAnvil.pdb
+/Users/ishanjalan/RiderProjects/Personal-Anvil/Personal Anvil/obj/Debug/net452/PersonalAnvil.csprojAssemblyReference.cache
+/Users/ishanjalan/RiderProjects/Personal-Anvil/Personal Anvil/obj/Debug/net452/PersonalAnvil.csproj.CoreCompileInputs.cache
+/Users/ishanjalan/RiderProjects/Personal-Anvil/Personal Anvil/obj/Debug/net452/PersonalAnvil.AssemblyInfoInputs.cache
+/Users/ishanjalan/RiderProjects/Personal-Anvil/Personal Anvil/obj/Debug/net452/PersonalAnvil.AssemblyInfo.cs
+/Users/ishanjalan/RiderProjects/Personal-Anvil/Personal Anvil/obj/Debug/net452/PersonalAnvil.dll
+/Users/ishanjalan/RiderProjects/Personal-Anvil/Personal Anvil/obj/Debug/net452/PersonalAnvil.pdb

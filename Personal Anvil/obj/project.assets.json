@@ -2,8 +2,15 @@
   "version": 3,
   "targets": {
     ".NETFramework,Version=v4.5.2": {
-      "Pathoschild.Stardew.ModBuildConfig/3.1.0": {
+      "Pathoschild.Stardew.ModBuildConfig/3.2.2": {
         "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.Build",
+          "Microsoft.Build.Framework",
+          "Microsoft.Build.Utilities.v4.0",
+          "System.IO.Compression",
+          "System.Web.Extensions"
+        ],
         "build": {
           "build/Pathoschild.Stardew.ModBuildConfig.targets": {}
         }
@@ -11,10 +18,10 @@
     }
   },
   "libraries": {
-    "Pathoschild.Stardew.ModBuildConfig/3.1.0": {
-      "sha512": "2sS34PpNJmpYzh3sE/N8fFiZj5+zwAER7BR9Xr5zOthhJ6LOM4ZoOwHFNCZM0FlzvrK0uteIQ4JGxnjKf3L81w==",
+    "Pathoschild.Stardew.ModBuildConfig/3.2.2": {
+      "sha512": "lBnDMxAMD602ku17jE1Wl1M9qbIAftW60VVI+wH+VTQQixjVA8+oW/rzQSUrKf2OzEzkKt7trV/ZHn6p9YnhKQ==",
       "type": "package",
-      "path": "pathoschild.stardew.modbuildconfig/3.1.0",
+      "path": "pathoschild.stardew.modbuildconfig/3.2.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -26,14 +33,14 @@
         "build/SMAPI.Toolkit.dll",
         "build/find-game-folder.targets",
         "images/icon.png",
-        "pathoschild.stardew.modbuildconfig.3.1.0.nupkg.sha512",
+        "pathoschild.stardew.modbuildconfig.3.2.2.nupkg.sha512",
         "pathoschild.stardew.modbuildconfig.nuspec"
       ]
     }
   },
   "projectFileDependencyGroups": {
     ".NETFramework,Version=v4.5.2": [
-      "Pathoschild.Stardew.ModBuildConfig >= 3.1.0"
+      "Pathoschild.Stardew.ModBuildConfig >= 3.2.2"
     ]
   },
   "packageFolders": {
@@ -42,14 +49,14 @@
   "project": {
     "version": "1.0.7",
     "restore": {
-      "projectUniqueName": "/Users/ishanjalan/Downloads/GitHub/UsefulWorkbench/Personal Anvil/PersonalAnvil.csproj",
+      "projectUniqueName": "/Users/ishanjalan/RiderProjects/Personal-Anvil/Personal Anvil/PersonalAnvil.csproj",
       "projectName": "PersonalAnvil",
-      "projectPath": "/Users/ishanjalan/Downloads/GitHub/UsefulWorkbench/Personal Anvil/PersonalAnvil.csproj",
+      "projectPath": "/Users/ishanjalan/RiderProjects/Personal-Anvil/Personal Anvil/PersonalAnvil.csproj",
       "packagesPath": "/Users/ishanjalan/.nuget/packages/",
-      "outputPath": "/Users/ishanjalan/Downloads/GitHub/UsefulWorkbench/Personal Anvil/obj/",
+      "outputPath": "/Users/ishanjalan/RiderProjects/Personal-Anvil/Personal Anvil/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/ishanjalan/.config/NuGet/NuGet.Config"
+        "/Users/ishanjalan/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net452"
@@ -73,7 +80,7 @@
         "dependencies": {
           "Pathoschild.Stardew.ModBuildConfig": {
             "target": "Package",
-            "version": "[3.1.0, )"
+            "version": "[3.2.2, )"
           }
         },
         "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.100/RuntimeIdentifierGraph.json"
