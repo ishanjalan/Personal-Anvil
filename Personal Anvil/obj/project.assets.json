@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     ".NETFramework,Version=v4.5.2": {
-      "Pathoschild.Stardew.ModBuildConfig/3.2.2": {
+      "Pathoschild.Stardew.ModBuildConfig/3.3.0": {
         "type": "package",
         "frameworkAssemblies": [
           "Microsoft.Build",
@@ -18,10 +18,10 @@
     }
   },
   "libraries": {
-    "Pathoschild.Stardew.ModBuildConfig/3.2.2": {
-      "sha512": "lBnDMxAMD602ku17jE1Wl1M9qbIAftW60VVI+wH+VTQQixjVA8+oW/rzQSUrKf2OzEzkKt7trV/ZHn6p9YnhKQ==",
+    "Pathoschild.Stardew.ModBuildConfig/3.3.0": {
+      "sha512": "ckwEQwOCsGO5UfcVwRRtSiGjGKQCXyJDVz5KJjSsMzqbFO3jGiHR8JDQn4Xj8bRDafEHKjetVoopwq1bwI22mw==",
       "type": "package",
-      "path": "pathoschild.stardew.modbuildconfig/3.2.2",
+      "path": "pathoschild.stardew.modbuildconfig/3.3.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -33,21 +33,21 @@
         "build/SMAPI.Toolkit.dll",
         "build/find-game-folder.targets",
         "images/icon.png",
-        "pathoschild.stardew.modbuildconfig.3.2.2.nupkg.sha512",
+        "pathoschild.stardew.modbuildconfig.3.3.0.nupkg.sha512",
         "pathoschild.stardew.modbuildconfig.nuspec"
       ]
     }
   },
   "projectFileDependencyGroups": {
     ".NETFramework,Version=v4.5.2": [
-      "Pathoschild.Stardew.ModBuildConfig >= 3.2.2"
+      "Pathoschild.Stardew.ModBuildConfig >= 3.3.0"
     ]
   },
   "packageFolders": {
     "/Users/ishanjalan/.nuget/packages/": {}
   },
   "project": {
-    "version": "1.0.7",
+    "version": "1.3.0",
     "restore": {
       "projectUniqueName": "/Users/ishanjalan/RiderProjects/Personal-Anvil/Personal Anvil/PersonalAnvil.csproj",
       "projectName": "PersonalAnvil",
@@ -66,6 +66,7 @@
       },
       "frameworks": {
         "net452": {
+          "targetAlias": "net452",
           "projectReferences": {}
         }
       },
@@ -77,13 +78,14 @@
     },
     "frameworks": {
       "net452": {
+        "targetAlias": "net452",
         "dependencies": {
           "Pathoschild.Stardew.ModBuildConfig": {
             "target": "Package",
-            "version": "[3.2.2, )"
+            "version": "[3.3.0, )"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.100/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/Library/Frameworks/Mono.framework/Versions/6.12.0/lib/mono/msbuild/Current/bin/RuntimeIdentifierGraph.json"
       }
     }
   }

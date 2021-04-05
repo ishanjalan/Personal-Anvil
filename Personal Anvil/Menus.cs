@@ -229,8 +229,8 @@ namespace PersonalAnvil
 
                     _geodeDestructionAnimation = new TemporaryAnimatedSprite("TileSheets\\animations",
                         new Rectangle(0, geodeDestructionYOffset, 64, 64), 100f, 8, 0,
-                        new Vector2(GeodeSpot.bounds.X + 285 - 32, GeodeSpot.bounds.Y + 150 - 32), flicker: false,
-                        flipped: false);
+                        new Vector2(GeodeSpot.bounds.X + 285 - 32, GeodeSpot.bounds.Y + 150 - 32), false,
+                        false);
                     if (GeodeSpot.item != null && GeodeSpot.item.ParentSheetIndex == 275)
                     {
                         _geodeDestructionAnimation = new TemporaryAnimatedSprite
@@ -250,7 +250,7 @@ namespace PersonalAnvil
                             _fluffSprites.Add(
                                 new TemporaryAnimatedSprite("LooseSprites\\Cursors", new Rectangle(372, 1956, 10, 10),
                                     new Vector2(GeodeSpot.bounds.X + 285 - 32 + Game1.random.Next(21),
-                                        GeodeSpot.bounds.Y + 150 - 16), flipped: false, 0.002f,
+                                        GeodeSpot.bounds.Y + 150 - 16), false, 0.002f,
                                     new Color(255, 222, 198))
                                 {
                                     alphaFade = 0.02f,
@@ -347,7 +347,7 @@ namespace PersonalAnvil
                         _sparkle = new TemporaryAnimatedSprite("TileSheets\\animations", new Rectangle(0, 640, 64, 64),
                             100f, 8, 0,
                             new Vector2(GeodeSpot.bounds.X + 285 - 32, GeodeSpot.bounds.Y + 150 + _yPositionOfGem - 32),
-                            flicker: false, flipped: false);
+                            false, false);
                         Game1.playSound("discoverMineral");
                     }
                     else if ((_geodeDestructionAnimation.currentParentTileIndex == 7 ||
@@ -374,7 +374,7 @@ namespace PersonalAnvil
                     yPositionOnScreen + spaceToClearTopBorder + 4, 560, 308), "Anvil");
             var yPositionForInventory = yPositionOnScreen + spaceToClearTopBorder + borderWidth + 192 - 16 + 128 + 4;
             inventory = new InventoryMenu(xPositionOnScreen + spaceToClearSideBorder + borderWidth / 2 + 12,
-                yPositionForInventory, playerInventory: false, null, inventory.highlightMethod);
+                yPositionForInventory, false, null, inventory.highlightMethod);
         }
 
         public override void draw(SpriteBatch b)
@@ -392,12 +392,12 @@ namespace PersonalAnvil
                             GeodeSpot.bounds.Y + 118 + (GeodeSpot.item.ParentSheetIndex == 275 ? 8 : 0)), 1f);
                 else
                 {
-                    _geodeDestructionAnimation.draw(b, localPosition: true);
+                    _geodeDestructionAnimation.draw(b, true);
                 }
 
                 foreach (var fluffSprite in _fluffSprites)
                 {
-                    fluffSprite.draw(b, localPosition: true);
+                    fluffSprite.draw(b, true);
                 }
 
                 if (_geodeTreasure != null && _delayBeforeShowArtifactTimer <= 0f)
@@ -406,7 +406,7 @@ namespace PersonalAnvil
                         new Vector2(GeodeSpot.bounds.X + 253, GeodeSpot.bounds.Y + 118 + _yPositionOfGem), 1f);
                 }
 
-                _sparkle?.draw(b, localPosition: true);
+                _sparkle?.draw(b, true);
             }
 
             _clint.draw(b, new Vector2(GeodeSpot.bounds.X + 384, GeodeSpot.bounds.Y + 64), 0.877f);
