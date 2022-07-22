@@ -1,0 +1,10 @@
+/Users/ishan.jalan/Documents/GitHub/Personal-Anvil/Personal Anvil/bin/Debug/net5.0/PersonalAnvil.deps.json
+/Users/ishan.jalan/Documents/GitHub/Personal-Anvil/Personal Anvil/bin/Debug/net5.0/PersonalAnvil.dll
+/Users/ishan.jalan/Documents/GitHub/Personal-Anvil/Personal Anvil/bin/Debug/net5.0/PersonalAnvil.pdb
+/Users/ishan.jalan/Documents/GitHub/Personal-Anvil/Personal Anvil/obj/Debug/net5.0/PersonalAnvil.csproj.AssemblyReference.cache
+/Users/ishan.jalan/Documents/GitHub/Personal-Anvil/Personal Anvil/obj/Debug/net5.0/PersonalAnvil.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ishan.jalan/Documents/GitHub/Personal-Anvil/Personal Anvil/obj/Debug/net5.0/PersonalAnvil.AssemblyInfoInputs.cache
+/Users/ishan.jalan/Documents/GitHub/Personal-Anvil/Personal Anvil/obj/Debug/net5.0/PersonalAnvil.AssemblyInfo.cs
+/Users/ishan.jalan/Documents/GitHub/Personal-Anvil/Personal Anvil/obj/Debug/net5.0/PersonalAnvil.csproj.CoreCompileInputs.cache
+/Users/ishan.jalan/Documents/GitHub/Personal-Anvil/Personal Anvil/obj/Debug/net5.0/PersonalAnvil.dll
+/Users/ishan.jalan/Documents/GitHub/Personal-Anvil/Personal Anvil/obj/Debug/net5.0/PersonalAnvil.pdb
