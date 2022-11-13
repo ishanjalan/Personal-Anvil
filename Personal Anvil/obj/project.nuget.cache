@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "cwPlwzYu9BTGRqDDz7cKYO+PxL7SHBOlRDEgOCq6R7Vqmtu8kKwbNAVYOmdSW2rTApoVvOQxCsTRmXAWrYh8rg==",
+  "dgSpecHash": "oI2ydH/ofJ12nVyJCZFgxkhFZZCZSfP/d9EPBt4nCZYYbXBApelgTM0/C64JCiUSY5NHSjsKOfJ+ra1wOJuXfA==",
   "success": true,
   "projectFilePath": "/Users/ishan.jalan/Documents/GitHub/Personal-Anvil/Personal Anvil/PersonalAnvil.csproj",
   "expectedPackageFiles": [
-    "/Users/ishan.jalan/.nuget/packages/pathoschild.stardew.modbuildconfig/4.0.1/pathoschild.stardew.modbuildconfig.4.0.1.nupkg.sha512",
+    "/Users/ishan.jalan/.nuget/packages/pathoschild.stardew.modbuildconfig/4.0.2/pathoschild.stardew.modbuildconfig.4.0.2.nupkg.sha512",
     "/Users/ishan.jalan/.nuget/packages/microsoft.netcore.app.ref/5.0.0/microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
     "/Users/ishan.jalan/.nuget/packages/microsoft.aspnetcore.app.ref/5.0.0/microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512"
   ],

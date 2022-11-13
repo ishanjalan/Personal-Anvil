@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "net5.0": {
-      "Pathoschild.Stardew.ModBuildConfig/4.0.1": {
+      "Pathoschild.Stardew.ModBuildConfig/4.0.2": {
         "type": "package",
         "build": {
           "build/Pathoschild.Stardew.ModBuildConfig.targets": {}
@@ -11,10 +11,10 @@
     }
   },
   "libraries": {
-    "Pathoschild.Stardew.ModBuildConfig/4.0.1": {
-      "sha512": "1Q9cVdHNH7iUC0wYqwJHdUlyP69NZkLfbiOWWkMzmYHmFHCzH3CuhM8eqxh6BGdi3yemp8/S2xcnUQBFsmYnnA==",
+    "Pathoschild.Stardew.ModBuildConfig/4.0.2": {
+      "sha512": "Rm5LKXQQusBVroZBe3V9hzHmXEc7CehYDNw+G6/ptr3MxKa0nymiUg8jftMfOOWte0typBvH/I7DK4m6jqzhnQ==",
       "type": "package",
-      "path": "pathoschild.stardew.modbuildconfig/4.0.1",
+      "path": "pathoschild.stardew.modbuildconfig/4.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -26,14 +26,14 @@
         "build/SMAPI.Toolkit.dll",
         "build/find-game-folder.targets",
         "images/icon.png",
-        "pathoschild.stardew.modbuildconfig.4.0.1.nupkg.sha512",
+        "pathoschild.stardew.modbuildconfig.4.0.2.nupkg.sha512",
         "pathoschild.stardew.modbuildconfig.nuspec"
       ]
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "Pathoschild.Stardew.ModBuildConfig >= 4.0.1"
+      "Pathoschild.Stardew.ModBuildConfig >= 4.0.2"
     ]
   },
   "packageFolders": {
@@ -75,7 +75,7 @@
         "dependencies": {
           "Pathoschild.Stardew.ModBuildConfig": {
             "target": "Package",
-            "version": "[4.0.1, )"
+            "version": "[4.0.2, )"
           }
         },
         "imports": [
