@@ -1,8 +1,8 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {
-      "Pathoschild.Stardew.ModBuildConfig/4.0.2": {
+    "net6.0": {
+      "Pathoschild.Stardew.ModBuildConfig/4.1.1": {
         "type": "package",
         "build": {
           "build/Pathoschild.Stardew.ModBuildConfig.targets": {}
@@ -11,10 +11,10 @@
     }
   },
   "libraries": {
-    "Pathoschild.Stardew.ModBuildConfig/4.0.2": {
-      "sha512": "Rm5LKXQQusBVroZBe3V9hzHmXEc7CehYDNw+G6/ptr3MxKa0nymiUg8jftMfOOWte0typBvH/I7DK4m6jqzhnQ==",
+    "Pathoschild.Stardew.ModBuildConfig/4.1.1": {
+      "sha512": "iLEtUWuj+vFTa0HNJmOm0yMIx5ZnED3WHxM1groLUUcFQWV63IMyF5lSQ9d0dteFu7t2dbl/scLwHBdjk0d7AA==",
       "type": "package",
-      "path": "pathoschild.stardew.modbuildconfig/4.0.2",
+      "path": "pathoschild.stardew.modbuildconfig/4.1.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -26,21 +26,21 @@
         "build/SMAPI.Toolkit.dll",
         "build/find-game-folder.targets",
         "images/icon.png",
-        "pathoschild.stardew.modbuildconfig.4.0.2.nupkg.sha512",
+        "pathoschild.stardew.modbuildconfig.4.1.1.nupkg.sha512",
         "pathoschild.stardew.modbuildconfig.nuspec"
       ]
     }
   },
   "projectFileDependencyGroups": {
-    "net5.0": [
-      "Pathoschild.Stardew.ModBuildConfig >= 4.0.2"
+    "net6.0": [
+      "Pathoschild.Stardew.ModBuildConfig >= 4.1.1"
     ]
   },
   "packageFolders": {
     "/Users/ishan.jalan/.nuget/packages/": {}
   },
   "project": {
-    "version": "1.3.0",
+    "version": "2.0.1",
     "restore": {
       "projectUniqueName": "/Users/ishan.jalan/Documents/GitHub/Personal-Anvil/Personal Anvil/PersonalAnvil.csproj",
       "projectName": "PersonalAnvil",
@@ -52,14 +52,14 @@
         "/Users/ishan.jalan/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "net5.0"
+        "net6.0"
       ],
       "sources": {
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "projectReferences": {}
         }
       },
@@ -70,12 +70,12 @@
       }
     },
     "frameworks": {
-      "net5.0": {
-        "targetAlias": "net5.0",
+      "net6.0": {
+        "targetAlias": "net6.0",
         "dependencies": {
           "Pathoschild.Stardew.ModBuildConfig": {
             "target": "Package",
-            "version": "[4.0.2, )"
+            "version": "[4.1.1, )"
           }
         },
         "imports": [
@@ -84,26 +84,17 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[5.0.0, 5.0.0]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[5.0.0, 5.0.0]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.316/RuntimeIdentifierGraph.json"
       }
     }
   }
