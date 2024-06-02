@@ -1,30 +1,26 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="ModEntry.cs">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="PersonalAnvil.csproj">
     <Files>
-      <File FileName="PersonalAnvil.csproj" />
-      <File FileName="assets/BigCraftables/Anvil/big-craftable.png" />
-      <File FileName="assets/BigCraftables/Anvil/big-craftable.json" />
-      <File FileName="manifest.json" />
-      <File FileName="ModEntry.cs" Line="46" Column="16" />
-      <File FileName="LICENSE.txt" />
+      <File FileName="PersonalAnvil.csproj" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="PersonalAnvil">
-            <Node name="PersonalAnvil">
-              <Node name="ModEntry.cs" selected="True" />
+            <Node name="PersonalAnvil" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MultiItemStartupConfigurations />
-  <Debugger.DebugSourceFolders />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>
